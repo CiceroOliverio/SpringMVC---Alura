@@ -16,7 +16,7 @@ public class ProdutosController {
     @RequestMapping("/produtos")
     public String gravar(Produto produto){
         System.out.println(produto);
-        return "/produtos/ok";
+        return "produtos/ok";
     }
 
 }
